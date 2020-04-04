@@ -1,0 +1,1 @@
+In future JS files should be add in this folder
