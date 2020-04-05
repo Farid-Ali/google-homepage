@@ -7,17 +7,35 @@
 
 /* =====================Global css========================= */
 
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 ul {
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 ul li {
-    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 1rem;
 }
+
+button {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 /* ========================Header css======================= */
 
 header {
@@ -36,8 +54,16 @@ header navigation css
     margin-left: auto;
 }
 
+.avatar {
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(78, 182, 185);
+}
 
-
+.avatar a {
+    color: white;
+}
 
 /* ======================Main css======================== */
 
@@ -76,10 +102,15 @@ search section css
     display: flex;
     min-width: 400px;
     max-width: 500px;
-    height: 35px;
+    height: 40px;
     justify-content: space-between;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 10px;
 }
 
+.search:hover {
+    box-shadow: 1px 1px rgb(197, 192, 192);
+}
 .icon {
     width: 30px;
     display: flex;
@@ -90,6 +121,9 @@ search section css
 
 .search input {
     width: 100%;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.5em;
 }
 
 /*
@@ -103,8 +137,18 @@ button section css
 }
 
 .btn-section button {
+    width: 120px;
+    height: 35px;
     margin: 0 25px;
-    padding: 10px 20px;
+    background-color: white;
+    user-select: none;
+    font-size: .9rem;
+}
+
+.btn-section button:hover {
+    border: 1px solid rgb(141, 137, 137);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* =====================Footer css======================== */
@@ -112,6 +156,7 @@ button section css
 footer {
     width: 100%;
     height: 70px;
+    border-top: 1px solid gainsboro;
 }
 
 /*
