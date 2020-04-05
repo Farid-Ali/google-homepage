@@ -23,7 +23,7 @@ ul {
 
 ul li {
     margin-right: 20px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 button {
@@ -36,6 +36,9 @@ a {
     text-decoration: none;
 }
 
+ul li a {
+    color: rgb(82, 75, 75);
+}
 /* ========================Header css======================= */
 
 header {
@@ -143,6 +146,7 @@ button section css
     background-color: white;
     user-select: none;
     font-size: .9rem;
+    color: rgb(78, 76, 76);
 }
 
 .btn-section button:hover {
